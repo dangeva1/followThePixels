@@ -4845,8 +4845,8 @@ p.nominalBounds = new cjs.Rectangle(-1249.6,-584.5,2566.8,1321.4);
 		
 		
 		function startSong() {
-			createjs.Sound.registerSound("/sounds/During_the_game.mp3", "during");
-			createjs.Sound.registerSound("/sounds/For_an_opening_screen.mp3", "opening");
+			createjs.Sound.registerSound("sounds/During_the_game.mp3", "during");
+			createjs.Sound.registerSound("sounds/For_an_opening_screen.mp3", "opening");
 		
 			openSound = createjs.Sound.play("opening");
 		};
